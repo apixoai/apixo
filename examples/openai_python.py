@@ -5,7 +5,7 @@ from openai import OpenAI
 client = OpenAI(base_url="https://api.apixoai.online/v1", api_key=os.environ["APIXO_API_KEY"])
 
 stream = client.chat.completions.create(
-    model="glm-5.2",
+    model="glm-5.3-abliterated",
     messages=[{"role": "user", "content": "Write a haiku about caching"}],
     stream=True,
 )

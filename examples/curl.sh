@@ -4,7 +4,7 @@
 # OpenAI format
 curl https://api.apixoai.online/v1/chat/completions \
   -H "Authorization: Bearer $APIXO_API_KEY" -H "Content-Type: application/json" \
-  -d '{"model": "glm-5.2", "messages": [{"role": "user", "content": "Hello!"}]}'
+  -d '{"model": "glm-5.3-abliterated", "messages": [{"role": "user", "content": "Hello!"}]}'
 
 # Anthropic format
 curl https://api.apixoai.online/v1/messages \

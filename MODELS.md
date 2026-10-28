@@ -4,6 +4,25 @@ _Updated automatically: 2026-10-28. Always-current list: https://apixoai.online/
 
 Prices in **USD per 1M tokens**. Cached input is billed at the cache price. ✅ = available on the free trial.
 
+## 🔓 Uncensored & abliterated models — most popular
+
+Open-weight models with the refusal layer removed (**abliterated**) or fine-tuned without content filters (**uncensored**). They answer what normal models refuse — creative writing, role-play, security research, red-teaming — and work in every tool like any other model.
+
+| Model ID | Input | Output | Cached input | Context | Trial |
+|---|---|---|---|---|---|
+| `glm-5.3-abliterated` | $1.40 | $1.40 | $0.40 | 1000k | ✅ |
+| `glm-5.3-uncensored` | $0.35 | $0.35 | $0.10 | 1000k | ✅ |
+| `glm-5.3-flash-abliterated` | $0.40 | $0.40 | $0.10 | 1000k | ✅ |
+| `deepseek-v4.1-flash-1017-abliterated` | $0.30 | $0.30 | $0.10 | 1000k | ✅ |
+| `glm-5.3-flash-uncensored` | $0.10 | $0.10 | $0.009 | 1000k | ✅ |
+| `deepseek-v4-pro-uncensored` | $0.50 | $0.50 | $0.10 | 1000k | ✅ |
+| `deepseek-v4.1-flash-abliterated-fast` | $1.40 | $1.40 | $0.32 | 1000k | ✅ |
+| `deepseek-v4.1-flash-abliterated` | $0.30 | $0.30 | $0.10 | 1000k | ✅ |
+| `gemma-4-31b-abliterated` | $0.24 | $0.72 | $0.24 | 33k |  |
+| `qwen3-abliterated` | $0.49 | $2.37 | $0.49 | 33k |  |
+| `qwen3-uncensored` | $0.49 | $2.37 | $0.49 | 33k |  |
+| `glm5.3-flash-abliterated-backup` | $0.34 | $0.34 | $0.034 | 1000k |  |
+
 ## OpenAI
 
 | Model ID | Input | Output | Cached input | Official (in / out) | Context | Trial |
@@ -37,12 +56,7 @@ Prices in **USD per 1M tokens**. Cached input is billed at the cache price. ✅ 
 |---|---|---|---|---|---|---|
 | `glm-5.2` | $0.20 | $0.20 | $0.06 | $1.40 / $4.40 −86% | 1000k |  |
 | `glm-5.3` | $0.20 | $0.20 | $0.06 | $1.40 / $4.40 −86% | 1000k |  |
-| `glm-5.3-uncensored` | $0.35 | $0.35 | $0.10 | — | 1000k | ✅ |
 | `glm-5.3-flash` | $0.10 | $0.10 | $0.009 | $0.15 / $0.50 −33% | 1000k | ✅ |
-| `glm-5.3-flash-uncensored` | $0.10 | $0.10 | $0.009 | — | 1000k | ✅ |
-| `glm-5.3-flash-abliterated` | $0.40 | $0.40 | $0.10 | — | 1000k | ✅ |
-| `glm5.3-flash-abliterated-backup` | $0.34 | $0.34 | $0.034 | — | 1000k |  |
-| `glm-5.3-abliterated` | $1.40 | $1.40 | $0.40 | — | 1000k | ✅ |
 
 ## DeepSeek
 
@@ -51,11 +65,7 @@ Prices in **USD per 1M tokens**. Cached input is billed at the cache price. ✅ 
 | `deepseek-v4.1-flash` | $0.04 | $0.04 | $0.01 | $0.15 / $0.60 −73% | 1000k | ✅ |
 | `deepseek-v4-flash-0731` | $0.06 | $0.06 | $0.005 | $0.15 / $0.60 −60% | 1000k | ✅ |
 | `deepseek-v4-pro-0813` | $0.50 | $0.50 | $0.10 | $0.66 / $1.98 −24% | 1000k | ✅ |
-| `deepseek-v4-pro-uncensored` | $0.50 | $0.50 | $0.10 | — | 1000k | ✅ |
 | `deepseek-v4.1-flash-1017` | $0.04 | $0.04 | $0.01 | — | 1000k | ✅ |
-| `deepseek-v4.1-flash-1017-abliterated` | $0.30 | $0.30 | $0.10 | — | 1000k | ✅ |
-| `deepseek-v4.1-flash-abliterated` | $0.30 | $0.30 | $0.10 | — | 1000k | ✅ |
-| `deepseek-v4.1-flash-abliterated-fast` | $1.40 | $1.40 | $0.32 | — | 1000k | ✅ |
 
 ## xAI
 
@@ -83,14 +93,6 @@ Prices in **USD per 1M tokens**. Cached input is billed at the cache price. ✅ 
 
 | Model ID | Input | Output | Cached input | Official (in / out) | Context | Trial |
 |---|---|---|---|---|---|---|
-| `gemma-4-31b-abliterated` | $0.24 | $0.72 | $0.24 | — | 33k |  |
 | `gemini-4-argon` | $0.30 | $0.30 | $0.08 | — | 128k | ✅ |
 
-## Qwen
-
-| Model ID | Input | Output | Cached input | Official (in / out) | Context | Trial |
-|---|---|---|---|---|---|---|
-| `qwen3-uncensored` | $0.49 | $2.37 | $0.49 | — | 33k |  |
-| `qwen3-abliterated` | $0.49 | $2.37 | $0.49 | — | 33k |  |
-
-Official prices are the providers' public list prices, shown for comparison.
+Official prices are the providers' public list prices, shown for comparison. You are responsible for using any model lawfully.

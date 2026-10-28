@@ -2,9 +2,9 @@
 
 # Apixo
 
-**Every top model. One API key.**
+**Uncensored & abliterated AI models + every top model. One API key.**
 
-Claude · GPT · DeepSeek · GLM · Kimi · Gemini · Grok · Qwen and more — through one OpenAI- **and** Anthropic-compatible API.
+🔓 Uncensored / abliterated GLM-5.3 · DeepSeek V4 · Qwen3 · Gemma — plus Claude · GPT · Kimi · Gemini · Grok — through one OpenAI- **and** Anthropic-compatible API.
 Pay per token, top up with crypto, no subscription.
 
 [Website](https://apixoai.online) · [Get your key](https://apixoai.online/login) · [Pricing](https://apixoai.online/pricing) · [Docs](docs/README.md) · [Telegram bot](https://t.me/Apixo_bot) · [Channel](https://t.me/aiapixo) · [YouTube](https://www.youtube.com/@apixo-ai)
@@ -13,8 +13,30 @@ Pay per token, top up with crypto, no subscription.
 
 ---
 
+## 🔓 Uncensored & abliterated models
+
+Our most popular models: no refusals, no "I can't help with that". Same API, same tools (Claude Code, OpenCode, Cline, Kilo Code, Cursor…) — just change the model ID.
+
+| Model ID | Input | Output | Cached input | Context | Trial |
+|---|---|---|---|---|---|
+| `glm-5.3-abliterated` | $1.40 | $1.40 | $0.40 | 1000k | ✅ |
+| `glm-5.3-uncensored` | $0.35 | $0.35 | $0.10 | 1000k | ✅ |
+| `glm-5.3-flash-abliterated` | $0.40 | $0.40 | $0.10 | 1000k | ✅ |
+| `deepseek-v4.1-flash-1017-abliterated` | $0.30 | $0.30 | $0.10 | 1000k | ✅ |
+| `glm-5.3-flash-uncensored` | $0.10 | $0.10 | $0.009 | 1000k | ✅ |
+| `deepseek-v4-pro-uncensored` | $0.50 | $0.50 | $0.10 | 1000k | ✅ |
+| `deepseek-v4.1-flash-abliterated-fast` | $1.40 | $1.40 | $0.32 | 1000k | ✅ |
+| `deepseek-v4.1-flash-abliterated` | $0.30 | $0.30 | $0.10 | 1000k | ✅ |
+| `gemma-4-31b-abliterated` | $0.24 | $0.72 | $0.24 | 33k |  |
+| `qwen3-abliterated` | $0.49 | $2.37 | $0.49 | 33k |  |
+| `qwen3-uncensored` | $0.49 | $2.37 | $0.49 | 33k |  |
+| `glm5.3-flash-abliterated-backup` | $0.34 | $0.34 | $0.034 | 1000k |  |
+
+Full list with every model: [MODELS.md](MODELS.md) · Live prices: https://apixoai.online/pricing
+
 ## What you get
 
+- 🔓 **12 uncensored & abliterated models** — fewer content filters, built for coding agents, creative writing and research.
 - 🔑 **One key, 44+ models** — switch model by changing one string. Live list: [MODELS.md](MODELS.md).
 - 🔌 **Works with your tools** — Claude Code, OpenCode, Cline, Roo Code, Kilo Code, Cursor, Continue, Codex CLI, the OpenAI & Anthropic SDKs, LangChain, LiteLLM, curl.
 - 🧾 **Both API formats** — `/v1/chat/completions`, `/v1/responses` and `/v1/messages`. Streaming, tool calling, images and reasoning work as usual.
@@ -41,7 +63,7 @@ Pay per token, top up with crypto, no subscription.
 curl https://api.apixoai.online/v1/chat/completions \
   -H "Authorization: Bearer sk-apixo-YOUR_KEY" \
   -H "Content-Type: application/json" \
-  -d '{"model": "glm-5.2", "messages": [{"role": "user", "content": "Hello!"}]}'
+  -d '{"model": "glm-5.3-abliterated", "messages": [{"role": "user", "content": "Hello!"}]}'
 ```
 
 ## Guides
