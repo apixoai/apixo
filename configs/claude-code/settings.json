@@ -1,0 +1,8 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://api.apixoai.online",
+    "ANTHROPIC_AUTH_TOKEN": "sk-apixo-YOUR_KEY",
+    "ANTHROPIC_MODEL": "claude-fable-5",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "claude-fable-5"
+  }
+}

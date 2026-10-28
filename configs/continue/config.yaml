@@ -1,0 +1,44 @@
+name: Apixo
+version: 1.0.0
+schema: v1
+models:
+  - name: GPT-6 Astra
+    provider: openai
+    model: gpt-6-astra
+    apiBase: https://api.apixoai.online/v1
+    apiKey: sk-apixo-YOUR_KEY
+  - name: GPT-6.1 Sol
+    provider: openai
+    model: gpt-6.1-sol
+    apiBase: https://api.apixoai.online/v1
+    apiKey: sk-apixo-YOUR_KEY
+  - name: GPT-6 Sol
+    provider: openai
+    model: gpt-6-sol
+    apiBase: https://api.apixoai.online/v1
+    apiKey: sk-apixo-YOUR_KEY
+  - name: GPT-6 Luna
+    provider: openai
+    model: gpt-6-luna
+    apiBase: https://api.apixoai.online/v1
+    apiKey: sk-apixo-YOUR_KEY
+  - name: GPT-5.6 Sol
+    provider: openai
+    model: gpt-5.6-sol
+    apiBase: https://api.apixoai.online/v1
+    apiKey: sk-apixo-YOUR_KEY
+  - name: GPT-5.6 Terra
+    provider: openai
+    model: gpt-5.6-terra
+    apiBase: https://api.apixoai.online/v1
+    apiKey: sk-apixo-YOUR_KEY
+  - name: GPT-5.6 Luna
+    provider: openai
+    model: gpt-5.6-luna
+    apiBase: https://api.apixoai.online/v1
+    apiKey: sk-apixo-YOUR_KEY
+  - name: GPT-5.5
+    provider: openai
+    model: gpt-5.5
+    apiBase: https://api.apixoai.online/v1
+    apiKey: sk-apixo-YOUR_KEY

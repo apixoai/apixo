@@ -1,0 +1,8 @@
+model = "gpt-6-astra"
+model_provider = "apixo"
+
+[model_providers.apixo]
+name = "Apixo"
+base_url = "https://api.apixoai.online/v1"
+env_key = "APIXO_API_KEY"
+wire_api = "responses"
