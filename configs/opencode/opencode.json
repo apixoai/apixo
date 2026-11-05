@@ -1090,7 +1090,7 @@
           "name": "GLM-5.3 Flash Abliterated",
           "limit": {
             "context": 1000000,
-            "output": 130000
+            "output": 65536
           },
           "reasoning": true,
           "tool_call": true,
@@ -1119,13 +1119,6 @@
             "max": {
               "reasoningEffort": "max"
             }
-          }
-        },
-        "glm5.3-flash-abliterated-backup": {
-          "name": "GLM5.3 Flash Abliterated Backup",
-          "limit": {
-            "context": 1000000,
-            "output": 65536
           }
         },
         "deepseek-v4.1-flash": {
